@@ -1,12 +1,4 @@
 
-<?php
-session_start();
-if (!isset($_SESSION["user_id"])) {
-    header("Location: index.php");
-    exit();
-}
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -15,9 +7,22 @@ if (!isset($_SESSION["user_id"])) {
     <title>Accueil</title>
 </head>
 <body>
+<style>
+      h3 {
+          margin-bottom: 1.5rem;
+          color: var(--primary-color);
+          font-size: 1.75rem;
+          border-bottom: 2px solid var(--primary-color);
+          padding-bottom: 0.5rem;
+          background: var(--main-gradient);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+</style>
 
-<h2>Bienvenue, <?php echo htmlspecialchars($_SESSION["email"]); ?> !</h2>
-<a href="logout.php">Déconnexion</a>
+<h2>Bienvenue!</h2>
+<h3>Presentation du Projet GITHUB </h2>
+<a href="logout.php">Deconnexion</a>
 
 </body>
 </html>
