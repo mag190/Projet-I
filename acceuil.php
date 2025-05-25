@@ -23,6 +23,11 @@
 <h2>Bienvenue!</h2>
 <h3>Presentation du Projet GITHUB </h2>
 <a href="logout.php">Deconnexion</a>
+<li>
+    <ol><h1>Point Strategique de l'expose</h1></ol>
+    <ol>Comment bien travailler sur un projet GITHUB?</ol>
+</li>
+<p>la procedure de creation du projet GITHUBen plusieurs etapes:</p>
 
 </body>
 </html>
